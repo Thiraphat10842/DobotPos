@@ -1,0 +1,15 @@
+1. ดาวโหลด Cuda https://developer.nvidia.com/cuda-toolkit  
+2  ดาวโหลด Anaconda https://www.anaconda.com/download/success
+3. สร้าง environment ใหม่สำหับใช้ในโปรเจค
+4. cd เข้าไปที่  environment  ที่สร้าง ติดตั้ง python และ Cuda pytorch https://pytorch.org/  เวอร์ชั้น CUDA Version: 12.4
+5. เข้าไปใน vscode รันโค้ดโดยใช้ cmd โดยใช้ environment ที่เราสร้าง
+
+สำหรับ Groundingdino
+1. ทำการ clonegit https://github.com/Thiraphat10842/DobotPos
+2. ทำตามขั้นตอน  Install ในgithub  https://github.com/Thiraphat10842/DobotPos เราจะได้โฟล์เดอร์ Groundingdino และ และไฟล์โค้ดการทำงาน 
+
+สำหรับ  segment-anything
+1. เข้าไปโหลด โมเดล ในgithub https://github.com/facebookresearch/segment-anything
+2. หาดูโมเดลที่มีชื่อว่า vit_b: ViT-B SAM model. จะเป็นโมลเดล segment-anything ขนาดเล็กไม่กินทรัพยากรเครื่องมากจนเกินไป
+
+!!! กาใช้segment-anything จะทำให้การทำงานของระบบและประมวลผลช้ามากๆ อยากให้ทดลองโดยใช้แค่โมเดล Groundingdino !!!!
